@@ -1,0 +1,15 @@
+body {
+    background-color: lightgreen;
+    background-image: url("kathir1.jpeg");
+
+}
+
+.center {
+    text-align: center;
+    font-weight: bold;
+    background-color:skyblue;
+    border: 5px solid lightyellow;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
