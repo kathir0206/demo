@@ -38,7 +38,7 @@ function Hi() {
           <div className="profile-image">
             <img
               src={images}
-              alt="User Image"
+              alt="User"
               className="img-thumbnail"
             />
           </div>
