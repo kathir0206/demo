@@ -18,7 +18,7 @@ const Header = () => {
       <div className="box-container">
         <div className="box">
           <div className="circle-image">
-            <img src={earn} alt="Image 1" className="box-image" />
+            <img src={earn} alt="1" className="box-image" />
           </div>
           <p className="box-text">Earning</p>
           <p className="additional-text">
@@ -27,7 +27,7 @@ const Header = () => {
         </div>
         <div className="box">
           <div className="circle-image">
-            <img src={Balance} alt="Image 2" className="box-image" />
+            <img src={Balance} alt="2" className="box-image" />
           </div>
           <p className="box-text">Balance</p>
           <p className="additional-text">
@@ -36,7 +36,7 @@ const Header = () => {
         </div>
         <div className="box">
           <div className="circle-image">
-            <img src={order} alt="Image 3" className="box-image" />
+            <img src={order} alt="3" className="box-image" />
           </div>
           <p className="box-text">Orders</p>
           <p className="additional-text">
@@ -45,7 +45,7 @@ const Header = () => {
         </div>
         <div className="box">
           <div className="circle-image">
-            <img src={TS} alt="Image 4" className="box-image" />
+            <img src={TS} alt="4" className="box-image" />
           </div>
           <p className="box-text">Total score</p>
           <p className="additional-text">
