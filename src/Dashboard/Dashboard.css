@@ -41,19 +41,19 @@
   text-decoration: none;
 }
 .separator1 {
-  margin-left: 50px;
+  margin-left: 66px;
 }
 .separator2 {
-  margin-left: 32px;
+  margin-left: 46px;
 }
 .separator3 {
-  margin-left: 51px;
+  margin-left: 66px;
 }
 .separator4 {
-  margin-left: 44px;
+  margin-left: 58px;
 }
 .separator5 {
-  margin-left: 71px;
+  margin-left: 85px;
 }
 .user-profile {
   display: flex;
@@ -85,8 +85,59 @@
 }
 .down-arrow {
   position: absolute;
-  right: 20px;
+  right: 30px;
   top: 557px;
   transform: translateY(-50%);
-  font-size: 20px;
+  font-size: 10px;
+}
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%; /* Make the sidebar full width */
+    position: relative; /* Remove the 'position: fixed;' for mobile */
+    padding: 10px; /* Adjust the padding for mobile */
+    overflow: hidden; /* Hide overflow for mobile */
+  }
+
+  .dashboard-list {
+    /* Adjust dashboard list styles for mobile */
+  }
+
+  .text-white {
+    font-size: 16px; /* Adjust font size for mobile */
+    margin-bottom: 20px; /* Adjust margin for mobile */
+  }
+
+  .separator1,
+  .separator2,
+  .separator3,
+  .separator4,
+  .separator5 {
+    margin-left: 10px; /* Adjust margin for mobile */
+  }
+
+  .user-profile {
+    display: flex;
+    align-items: center; /* Center items for mobile */
+    padding: 10px; /* Adjust padding for mobile */
+    margin-top: 10px; /* Adjust margin-top for mobile */
+  }
+
+  .profile-image img {
+    width: 40px; /* Adjust image size for mobile */
+    height: 40px; /* Adjust image size for mobile */
+  }
+
+  .profile-details h1,
+  .profile-details p {
+    font-size: 12px; /* Adjust font size for mobile */
+    margin-right: 0; /* Remove margin-right for mobile */
+  }
+
+  .down-arrow {
+    position: relative; /* Remove 'position: absolute;' for mobile */
+    top: 0; /* Adjust top for mobile */
+    right: 0; /* Adjust right for mobile */
+    transform: none; /* Remove transform for mobile */
+    font-size: 16px; /* Adjust font size for mobile */
+  }
 }
